@@ -1,0 +1,13 @@
+<mat-toolbar color="primary" fxLayout="row" fxLayoutAlign="end center">
+
+  <span fxFlex>{{title}}</span>
+  <button
+  aria-label="menuItem.toolTipTex"
+  mat-icon-button
+  [matTooltip]="menuItem.toolTipText"
+  *ngFor="let menuItem of menuItems"
+  [routerLink] = "[menuItem.routerLink]"
+  >
+    <mat-icon>{{menuItem.icon}}</mat-icon>
+  </button>
+</mat-toolbar>
