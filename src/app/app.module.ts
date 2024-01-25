@@ -6,8 +6,6 @@ import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { CoreModule } from './core/core.module';
-import { DashboardModule } from './dashboard/dashboard.module';
-import { HeroesModule } from './heroes/heroes.module';
 
 
 
@@ -20,11 +18,10 @@ import { HeroesModule } from './heroes/heroes.module';
     FormsModule,
     BrowserAnimationsModule,
 //feature
-    DashboardModule,
-    AppRoutingModule,
-    CoreModule,
-    HeroesModule
 
+    CoreModule,
+
+AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

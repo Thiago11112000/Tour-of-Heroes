@@ -5,10 +5,11 @@ import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { MessagesComponent } from './components/messages/messages.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { RouterLink } from '@angular/router';
+import { PageNotFoundComponent } from './components/page-not-found.component';
 
 
 const COMPONENTS = [
-
+  PageNotFoundComponent,
   MessagesComponent,
   ToolbarComponent
 ]
